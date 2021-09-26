@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Addon gamejam Behavour Pack",
+        "name": ""Addon gamejam Behavour",
+        "uuid": "62c6e9a8-3023-4628-9c36-dbb052165822",
+        "min_engine_version": [1,16,100],
+        "version": [0, 0, 1]
+    },
+    "min_engine_version": [1,16,100],
+    "modules": [
+        {
+            "description": "Mincraft Behavour Pack",
+            "type": "data",
+            "uuid": "fa2e90c1-c425-460f-8155-c8a60b753caa",
+            "version": [1, 16, 100]
+        }
+    ]
+}
