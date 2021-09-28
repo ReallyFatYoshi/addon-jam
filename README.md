@@ -7,7 +7,7 @@ https://github.com/othneildrew/Best-README-Template
 <br />
 <p align="center">
 <a href="https://github.com/ReallyFatYoshi/addon-jam">
-    <img src="https://raw.githubusercontent.com/ReallyFatYoshi/addon-jam/main/Resource%20Pack/pack_icon.png?token=AUXEZYELPXCID7BA2S4ELS3BKOC66" alt="Logo" width="80" height="80">
+    <img src="https://github.com/ReallyFatYoshi/addon-jam/blob/main/Behavour%20Pack/pack_icon.png?raw=true" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center"><u>Addon Jam</u></h3>
 
