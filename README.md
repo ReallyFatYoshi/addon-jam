@@ -32,7 +32,7 @@ https://github.com/othneildrew/Best-README-Template
 [![MIT License][license-shield]][license-url]
 <br>
 <br>
-Example Code For Items<br>
+Example Code For Items:<br>
 <i>Note: namespace for the identifiers will be</i> ```knight```
 ```json
     {
@@ -50,14 +50,16 @@ Example Code For Items<br>
 
 <br>
 <br>
-Example Code For Blocks
+Example Code For Blocks:
 
 ```json
   {
     "format_version": "1.16.0",
     "minecraft:block": {
         "description": {
-            "identifier": "knight:foo" //Name you want for the example I used foo.
+            "identifier": "knight:foo", //Name you want for the example I used foo.
+            "is_experimental": false,
+            "register_to_creative_menu": true
         },
         "components": {
             "minecraft:creative_category":"knight_gamejam1",
