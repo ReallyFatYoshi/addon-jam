@@ -12,7 +12,7 @@ https://github.com/othneildrew/Best-README-Template
   <h3 align="center"><u>Addon Jam</u></h3>
 
   <p align="center" style="font-size:16px;">
-     This <strong>Minecraft Bedrock Edition Addon</strong><img src="https://cdn.discordapp.com/emojis/809232071658700861.gif?size=44" height=
+     This <strong>Minecraft Bedrock Edition Addon</strong><img src="https://camo.githubusercontent.com/c47c99974fc3499547d5a9462b681b7c26890cdad07c603cc9ff6f758d41a364/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f656d6f6a69732f3830393233323037313635383730303836312e6769663f73697a653d3434" height=
      "20px" width="20px"> was created for the 2021 <strong style="color:#2fed05;">Addon Jam</strong> hosted by <a href="https://discord.com/invite/46JUdQb"> <strong style="color:#26a1ed;">Bedrock Addons</strong> <img src="https://cdn.discordapp.com/icons/523663022053392405/cb7be3526bc5fa2b1d88eb959bed59b7.png?size=96" height=
      "20px" width="20px"></a>
     <br> Theme for the <strong style="color:#2fed05;">Addon Jam</strong>: <strong><u>Exploration</u></strong> 
@@ -33,8 +33,9 @@ https://github.com/othneildrew/Best-README-Template
 [![MIT License][license-shield]][license-url]
 <br>
 <br>
-Example Code For Items:<br>
-<i>Note: namespace for the identifiers will be</i> ```knight```
+<p style="color:orange;">Example Code For Items: </p>
+<i><strong>Note:</strong> namespace for the identifiers will be.</i> ```knight```
+
 ```json
     {
     "format_version": "1.16.0",
@@ -51,7 +52,7 @@ Example Code For Items:<br>
 
 <br>
 <br>
-Example Code For Blocks:
+<p style="color:orange;">Example Code For Blocks:</p>
 
 ```json
   {
