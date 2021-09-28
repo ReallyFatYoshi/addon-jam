@@ -2,15 +2,11 @@
     "format_version": "1.16.0",
     "minecraft:block": {
         "description": {
-            "identifier": "knight:dry_leaves_small"
+            "identifier": "knight:dry_grass"
         },
         "components": {
-            "minecraft:map_color":"#C8AB35",
+            "minecraft:map_color":"#F0C000",
             "minecraft:destroy_time": "4.5",
-            "minecraft:flammable": {
-                "flame_odds": 75,
-                "burn_odds": 15
-            },
             "minecraft:breakonpush": false
         }
     }

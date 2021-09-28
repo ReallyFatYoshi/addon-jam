@@ -1,15 +1,31 @@
 {
     "format_version":"1.16.0",
     "knight:dry_oak": {
-            "textures": {
-                "side": "dry_oak_side",
-                "top": "dry_oak",
-                "down": "dry_oak"
+        "textures": {
+            "side": "dry_oak_side",
+            "top": "dry_oak",
+            "down": "dry_oak"
         },
-        "sound": "glass"
+        "sound": "wood"
     },
     "knight:dry_leaves_small": {
         "textures": "dry_oak",
-        "sound": "glass"
+        "sound": "leaves"
+    },
+    "knight:dry_grass": {
+        "textures": {
+            "side": "dry_grass_side",
+            "top": "dry_grass_top",
+            "down": "dry_grass_down"
+        },
+        "sound": "grass"
+    },
+    "knight:dry_stone": {
+        "textures": "dry_stone",
+        "sound": "stone"
+    },
+    "knight:dry_dirt": {
+        "textures": "dry_grass_down",
+        "sound": "dirt"
     }
 }

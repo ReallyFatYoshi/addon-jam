@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "knight:dry_dirt"
+        },
+        "components": {
+            "minecraft:map_color":"#9C7E65",
+            "minecraft:destroy_time": "3.5",
+            "minecraft:breakonpush": false
+        }
+    }
+}
