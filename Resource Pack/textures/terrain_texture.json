@@ -1,17 +1,17 @@
 {
-    "resource_pack_name": "default",
-    "texture_name": "atlas.terrain",
-    "padding": 8,
     "num_mip_levels": 4,
-    "dry_oak_top": {
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
         "dry_oak": {
           "textures": "textures/blocks/dry_oak_wood_top_bottom"
         },
         "dry_oak_side":{
             "textures": "textures/blocks/dry_oak_wood_side"
         },
-        "canvasblock": {
-            "textures": "textures/blocks/dry_oak_top"
+        "dry_leaves_small": {
+            "textures": "textures/blocks/dry_grass_top"
         }
-    }
+    },
+    "texture_name": "atlas.terrain"
 }
