@@ -34,7 +34,7 @@ https://github.com/othneildrew/Best-README-Template
 <br>
 <br>
 <p style="color:orange;">Example Code For Items: </p>
-<i><strong>Note:</strong> namespace for the identifiers will be.</i> ```knight```
+<i><strong>Note:</strong> namespace for the identifiers is "Knight" will be replaced later when we come up with an name for the Add-on.</i> 
 
 ```json
     {
