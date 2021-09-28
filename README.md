@@ -7,13 +7,14 @@ https://github.com/othneildrew/Best-README-Template
 <br />
 <p align="center">
 <a href="https://github.com/ReallyFatYoshi/addon-jam">
-    <img src="https://camo.githubusercontent.com/2cfb14ae080080e092ff1e37841ba04f7ee1ae6ac19be3503f995bf2e90c9479/68747470733a2f2f736372756d6f72672d776562736974652d70726f642e73332e616d617a6f6e6177732e636f6d2f64727570616c2f696e6c696e652d696d616765732f323031382d30392f556e6465727374616e64696e67253230616e642532304170706c79696e67253230536372756d2e706e67" alt="Logo" width="80" height="80">
+    <img src="https://www.minecraft.net/content/dam/minecraft/addons/addons-cta.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center"><u>Addon Jam</u></h3>
 
-  <p align="center">
-     This Minecraft <strong>addon</strong> was created for the 2021 <strong style="color:#2fed05;">Addon Jam</strong> hosted by <a href="https://discord.com/invite/46JUdQb"> <strong style="color:#26a1ed;">Bedrock Addons</strong> <img src="https://cdn.discordapp.com/icons/523663022053392405/cb7be3526bc5fa2b1d88eb959bed59b7.png?size=96" height=
-     "25px" width="25px"></a>
+  <p align="center" style="font-size:16px;">
+     This <strong>Minecraft Bedrock Edition Addon</strong><img src="https://cdn.discordapp.com/emojis/809232071658700861.gif?size=44" height=
+     "20px" width="20px"> was created for the 2021 <strong style="color:#2fed05;">Addon Jam</strong> hosted by <a href="https://discord.com/invite/46JUdQb"> <strong style="color:#26a1ed;">Bedrock Addons</strong> <img src="https://cdn.discordapp.com/icons/523663022053392405/cb7be3526bc5fa2b1d88eb959bed59b7.png?size=96" height=
+     "20px" width="20px"></a>
     <br> Theme for the <strong style="color:#2fed05;">Addon Jam</strong>: <strong><u>Exploration</u></strong> 
     <br />
     <br />
@@ -57,9 +58,7 @@ Example Code For Blocks:
     "format_version": "1.16.0",
     "minecraft:block": {
         "description": {
-            "identifier": "knight:foo", //Name you want for the example I used foo.
-            "is_experimental": false,
-            "register_to_creative_menu": true
+            "identifier": "knight:foo" //Name you want for the example I used foo.
         },
         "components": {
             "minecraft:creative_category":"knight_gamejam1",
