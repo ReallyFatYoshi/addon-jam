@@ -8,7 +8,6 @@
         },
         "components": {
             "minecraft:creative_category":"knight_gamejam1",
-            "minecraft:loot": {},
             "minecraft:map_color":"#AB987BFF",
             "minecraft:destroy_time": "2.5",
             "minecraft:flammable": {
