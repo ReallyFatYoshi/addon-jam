@@ -82,4 +82,4 @@ Example Code For Blocks:
 [issues-shield]: https://img.shields.io/github/issues/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
 [issues-url]: https://github.com/ReallyFatYoshi/addon-jam/issues
 [license-shield]: https://img.shields.io/github/license/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
-[license-url]: https://github.com/ReallyFatYoshi/addon-jam/blob/main/LICENSE.txt
+[license-url]: https://github.com/ReallyFatYoshi/addon-jam/blob/main/LICENSE
