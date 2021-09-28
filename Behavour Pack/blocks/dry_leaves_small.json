@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "knight:dry_leaves_small",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:creative_category":"knight_gamejam1",
+            "minecraft:loot": {},
+            "minecraft:map_color":"#C8AB35FF",
+            "minecraft:destroy_time": "1.5",
+            "minecraft:flammable": {
+                "flame_odds": 75,
+                "burn_odds": 15
+            },
+            "minecraft:breakonpush": false
+        }
+    }
+}

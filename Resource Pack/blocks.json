@@ -1,0 +1,15 @@
+{
+    "format_version":"1.16.0",
+    "knight:dry_oak": {
+        "textures": {
+            "side": "dry_oak_sides",
+            "top": "dry_oak",
+            "bottom": "dry_oak"
+        },
+        "sound": "dirt"
+    },
+    "knight:dry_leaves_small": {
+        "textures": "dry_oak_sides",
+        "sound": "dirt"
+    }
+}

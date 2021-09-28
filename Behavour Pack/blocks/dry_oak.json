@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "knight:dry_oak",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:creative_category":"knight_gamejam1",
+            "minecraft:loot": {},
+            "minecraft:map_color":"#AB987BFF",
+            "minecraft:destroy_time": "2.5",
+            "minecraft:flammable": {
+                "flame_odds": 75,
+                "burn_odds": 15
+            },
+            "minecraft:breakonpush": false
+        }
+    }
+}

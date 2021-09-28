@@ -1,8 +1,13 @@
 {
     "format_version": 2,
+    "metadata": {
+        "authors":[],
+        "url":"https://github.com/ReallyFatYoshi/addon-jam",
+        "license":"MIT"
+    },
     "header": {
         "description": "Addon gamejam Behavour Pack",
-        "name": ""Addon gamejam Behavour",
+        "name": "Addon gamejam Behavour",
         "uuid": "62c6e9a8-3023-4628-9c36-dbb052165822",
         "min_engine_version": [1,16,100],
         "version": [0, 0, 1]
