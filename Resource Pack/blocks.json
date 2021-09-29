@@ -1,35 +1,35 @@
 {
-    "format_version": [1, 1, 0],
+    "format_version": "1.16.0",
     "knight:dry_oak": {
         "textures": {
-            "side": "dry_oak_side",
-            "top": "dry_oak",
-            "down": "dry_oak"
+            "side":"dry_oak_side",
+            "top":"dry_oak",
+            "down":"dry_oak"
         },
-        "sound": "wood"
+        "sound":"wood"
     },
     "knight:dry_oak_leaves": {
-        "textures": "dry_oak_leaves",
-        "sound": "leave"
+        "textures":"dry_oak_leaves",
+        "sound":"leave"
     },
     "knight:dry_grass": {
         "textures": {
-            "side": "dry_grass_side",
-            "top": "dry_grass_top",
-            "down": "dry_grass_down"
+            "side":"dry_grass_side",
+            "top":"dry_grass_top",
+            "down":"dry_grass_down"
         },
         "sound": "grass"
     },
     "knight:dry_dirt": {
-        "textures": "dry_dirt",
-        "sound": "dirt"
+        "textures":"dry_dirt",
+        "sound":"dirt"
     },
     "knight:waisted_stone": {
-        "textures": "dry_stone",
-        "sound": "stone"
+        "textures":"dry_stone",
+        "sound":"stone"
     },
     "knight:waisted_stone_brick": {
-        "textures": "dry_stone",
-        "sound": "stone"
+        "textures":"dry_stone_brick",
+        "sound":"stone"
     }
 }

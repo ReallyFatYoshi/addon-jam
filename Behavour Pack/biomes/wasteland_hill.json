@@ -15,8 +15,8 @@
 			},
 			"minecraft:surface_parameters": {
 				"sea_floor_depth": 4,
-				"sea_floor_material": "minecraft:dry_stone",
-				"foundation_material": "knight:dry_stone",
+				"sea_floor_material": "minecraft:waisted_stone",
+				"foundation_material": "knight:waisted_stone",
 				"mid_material": "knight:dry_dirt",
 				"top_material": "knight:dry_grass",
 				"sea_material": "minecraft:water"
