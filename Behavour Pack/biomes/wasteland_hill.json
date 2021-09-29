@@ -1,0 +1,31 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "cold_biome"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.1,
+				"snow_accumulation": [0.0, 0.0],
+				"temperature": 1.0
+			},
+			"minecraft:overworld_height": {
+				"noise_params": [0.1, 0.3]
+			},
+			"minecraft:surface_parameters": {
+				"foundation_material": "knight:dry_stone",
+				"mid_material": "knight:dry_dirt",
+				"top_material": "knight:dry_grass"
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					["medium", 50],
+					["warm", 50],
+					["cold", 0]
+				]
+			},
+			"wasteland": {}
+		}
+	}
+}
