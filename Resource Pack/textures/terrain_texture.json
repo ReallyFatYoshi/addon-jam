@@ -22,6 +22,9 @@
             "textures": "textures/blocks/dry_oak_leaves"
         },
         "dry_stone": {
+            "textures": "textures/blocks/waisted_stone_brick"
+        },
+        "dry_stone_brick": {
             "textures": "textures/blocks/waisted_stone"
         },
         "dry_oak_planks": {

@@ -20,12 +20,16 @@
         },
         "sound": "grass"
     },
-    "knight:dry_stone": {
+    "knight:dry_dirt": {
+        "textures": "dry_dirt",
+        "sound": "dirt"
+    },
+    "knight:waisted_stone": {
         "textures": "dry_stone",
         "sound": "stone"
     },
-    "knight:waisted_stone": {
-        "textures": "dry_dirt",
-        "sound": "dirt"
+    "knight:waisted_stone_brick": {
+        "textures": "dry_stone",
+        "sound": "stone"
     }
 }
