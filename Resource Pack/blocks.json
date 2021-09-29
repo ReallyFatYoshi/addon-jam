@@ -9,7 +9,7 @@
         "sound": "wood"
     },
     "knight:dry_leaves_small": {
-        "textures": "dry_oak",
+        "textures": "dry_leaves_small",
         "sound": "leaves"
     },
     "knight:dry_grass": {
@@ -25,7 +25,7 @@
         "sound": "stone"
     },
     "knight:dry_dirt": {
-        "textures": "dry_grass_down",
+        "textures": "dry_dirt",
         "sound": "dirt"
     }
 }

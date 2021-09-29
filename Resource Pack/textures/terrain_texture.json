@@ -3,12 +3,6 @@
     "padding": 8,
     "resource_pack_name": "vanilla",
     "texture_data": {
-        "dry_oak": {
-          "textures": "textures/blocks/dry_oak_wood_top_bottom"
-        },
-        "dry_oak_side":{
-            "textures": "textures/blocks/dry_oak_wood_side"
-        },
         "dry_grass_top": {
             "textures": "textures/blocks/dry_grass_top"
         },
@@ -18,8 +12,23 @@
         "dry_grass_side": {
             "textures": "textures/blocks/dry_grass_side"
         },
+        "dry_oak": {
+          "textures": "textures/blocks/dry_oak_wood_top_bottom"
+        },
+        "dry_oak_side":{
+            "textures": "textures/blocks/dry_oak_wood_side"
+        },
         "dry_leaves_small": {
             "textures": "textures/blocks/dry_grass_top"
+        },
+        "dry_stone": {
+            "textures": "textures/blocks/waisted_stone"
+        },
+        "dry_oak_planks": {
+            "textures": "textures/blocks/dry_oak_planks"
+        },
+        "dry_dirt": {
+            "textures": "textures/blocks/dry_dirt"
         }
     },
     "texture_name": "atlas.terrain"
