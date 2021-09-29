@@ -56,13 +56,16 @@ https://github.com/othneildrew/Best-README-Template
 
 ```json
   {
-    "format_version": "1.16.0",
+    "format_version": "1.17.20",
     "minecraft:block": {
         "description": {
             "identifier": "knight:foo" //Name you want for the example I used foo.
         },
         "components": {
-            "minecraft:creative_category":"knight_gamejam1",
+            "minecraft:creative_category": {
+				"category": "construction", //Block category
+				"group": "itemGroup.name.grass" //Block group category list: https://wiki.bedrock.dev/items/creative-categories.html#list-of-creative-categories
+			},
             "minecraft:map_color":"#000000" //Color the block should display on a map.
             //What ever components you want.
         }

@@ -1,10 +1,14 @@
 {
-    "format_version": "1.16.0",
+    "format_version": "1.17.20",
     "minecraft:block": {
         "description": {
             "identifier": "knight:dry_grass"
         },
         "components": {
+            "minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.grass"
+			},
             "minecraft:map_color":"#F0C000",
             "minecraft:destroy_time": 3.5,
             "minecraft:breakonpush": false

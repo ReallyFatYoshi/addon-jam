@@ -1,10 +1,14 @@
 {
-    "format_version": "1.16.0",
+    "format_version": "1.17.20",
     "minecraft:block": {
         "description": {
-            "identifier": "knight:dry_stone"
+            "identifier": "knight:waisted_stone"
         },
         "components": {
+            "minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stone"
+			},
             "minecraft:map_color":"#9C7E65",
             "minecraft:destroy_time": 4.5,
             "minecraft:breakonpush": false

@@ -1,10 +1,14 @@
 {
-    "format_version": "1.16.0",
+    "format_version": "1.17.20",
     "minecraft:block": {
         "description": {
             "identifier": "knight:dry_oak"
         },
         "components": {
+            "minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.log"
+			},
             "minecraft:map_color":"#AB987B",
             "minecraft:destroy_time": 4.5,
             "minecraft:flammable": {

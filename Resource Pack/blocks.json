@@ -24,7 +24,7 @@
         "textures": "dry_stone",
         "sound": "stone"
     },
-    "knight:dry_dirt": {
+    "knight:waisted_stone": {
         "textures": "dry_dirt",
         "sound": "dirt"
     }

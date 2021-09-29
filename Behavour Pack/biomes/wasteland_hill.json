@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "cold_biome"
+			"identifier": "wasteland_hill"
 		},
 		"components": {
 			"minecraft:climate": {
@@ -14,9 +14,12 @@
 				"noise_params": [0.1, 0.3]
 			},
 			"minecraft:surface_parameters": {
+				"sea_floor_depth": 4,
+				"sea_floor_material": "minecraft:dry_stone",
 				"foundation_material": "knight:dry_stone",
 				"mid_material": "knight:dry_dirt",
-				"top_material": "knight:dry_grass"
+				"top_material": "knight:dry_grass",
+				"sea_material": "minecraft:water"
 			},
 			"minecraft:overworld_generation_rules": {
 				"generate_for_climates": [
