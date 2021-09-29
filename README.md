@@ -1,4 +1,4 @@
-<!-- https://komarev.com/ghpvc/?username=ReallyFatYoshi&label=Visitors
+<!--
 This README.md template was NOT orginally created by me(ReallyFatYoshi)! This is a fork of:
 https://github.com/othneildrew/Best-README-Template
 -->
@@ -33,7 +33,7 @@ https://github.com/othneildrew/Best-README-Template
 [![MIT License][license-shield]][license-url]
 <br>
 <br>
-<p style="color:orange;">Example Code For Items: </p>
+<p style="color:orange;">Template Code For Items: </p>
 <i><strong>Note:</strong> namespace for the identifiers is "Knight" will be replaced later when we come up with an name for the Add-on.</i> 
 
 ```json
@@ -52,7 +52,7 @@ https://github.com/othneildrew/Best-README-Template
 
 <br>
 <br>
-<p style="color:orange;">Example Code For Blocks:</p>
+<p style="color:orange;">Template Code For Blocks:</p>
 
 ```json
   {

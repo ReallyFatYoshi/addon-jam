@@ -28,6 +28,10 @@
         "textures":"dry_stone",
         "sound":"stone"
     },
+    "knight:dry_oak_planks": {
+        "textures":"dry_oak_planks",
+        "sound":"planks"
+    },
     "knight:waisted_stone_brick": {
         "textures":"dry_stone_brick",
         "sound":"stone"

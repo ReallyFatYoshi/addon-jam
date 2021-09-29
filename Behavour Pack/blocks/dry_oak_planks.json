@@ -1,0 +1,21 @@
+{
+    "format_version": "1.17.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "knight:dry_oak_planks"
+        },
+        "components": {
+            "minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.log"
+			},
+            "minecraft:map_color":"#AB987B",
+            "minecraft:destroy_time": 4.5,
+            "minecraft:flammable": {
+                "flame_odds": 75,
+                "burn_odds": 15
+            },
+            "minecraft:breakonpush": false
+        }
+    }
+}
