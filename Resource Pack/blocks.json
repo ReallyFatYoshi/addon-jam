@@ -1,5 +1,5 @@
 {
-    "format_version":"1.16.0",
+    "format_version": [1, 1, 0],
     "knight:dry_oak": {
         "textures": {
             "side": "dry_oak_side",
