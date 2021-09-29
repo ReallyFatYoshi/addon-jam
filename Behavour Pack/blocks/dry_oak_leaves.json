@@ -2,7 +2,7 @@
     "format_version": "1.16.0",
     "minecraft:block": {
         "description": {
-            "identifier": "knight:dry_leaves_small"
+            "identifier": "knight:dry_oak_leaves"
         },
         "components": {
             "minecraft:map_color":"#C8AB35",

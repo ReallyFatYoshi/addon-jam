@@ -10,8 +10,8 @@
                     "functions": [
                         {
                             "function": "set_book_contents",
-                            "author": "Example Author",
-                            "title": "Example Title",
+                            "author": "unknown",
+                            "title": "Hello, there!",
                             "pages": [
                             "§l§6Wasteland Add-on\n§r§6Made for the 2021 Add-on Jam\n§bHosted By Bedrock Addons\nDiscord Server Code: DNYcPffPvh"
                             ]
