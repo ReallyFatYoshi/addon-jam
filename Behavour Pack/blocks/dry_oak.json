@@ -6,7 +6,7 @@
         },
         "components": {
             "minecraft:map_color":"#AB987B",
-            "minecraft:destroy_time": "4.5",
+            "minecraft:destroy_time": 4.5,
             "minecraft:flammable": {
                 "flame_odds": 75,
                 "burn_odds": 15

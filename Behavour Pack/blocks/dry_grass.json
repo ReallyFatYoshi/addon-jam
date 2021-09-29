@@ -6,7 +6,7 @@
         },
         "components": {
             "minecraft:map_color":"#F0C000",
-            "minecraft:destroy_time": "3.5",
+            "minecraft:destroy_time": 3.5,
             "minecraft:breakonpush": false
         }
     }
