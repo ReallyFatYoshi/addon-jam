@@ -9,6 +9,20 @@
 				"category": "construction",
 				"group": "itemGroup.name.log"
 			},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dry_grass_side",
+                    "render_method": "opaque"
+                },
+                "ends": {
+                    "texture": "dry_oak",
+                    "render_method": "opaque"
+                },
+                "up": "ends",
+                "down": "ends",
+                "face_dimming": true,
+                "ambient_occlusion": true
+            },
             "minecraft:map_color":"#AB987B",
             "minecraft:destroy_time": 4.5,
             "minecraft:flammable": {

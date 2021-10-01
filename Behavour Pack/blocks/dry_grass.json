@@ -9,6 +9,20 @@
 				"category": "construction",
 				"group": "itemGroup.name.grass"
 			},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dry_oak_side",
+                    "render_method": "opaque"
+                },
+                "ends": {
+                    "texture": "dry_grass_top",
+                    "render_method": "opaque"
+                },
+                "up": "ends",
+                "down": "ends",
+                "face_dimming": true,
+                "ambient_occlusion": true
+            },
             "minecraft:map_color":"#F0C000",
             "minecraft:destroy_time": 3.5,
             "minecraft:breakonpush": false
