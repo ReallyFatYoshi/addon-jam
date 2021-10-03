@@ -4,8 +4,7 @@
             "identifier": "knight:wasted_walker",
             "materials": {"default":"zombie"},
             "geometry": {"default":"wasted_walker.geometry"},
-            "textures": {"default":"extures/entity/wasted_walker"},
-            "render_controllers": ["controller.render.default"],
+            "textures": {"default":"textures/entity/wasted_walker"},
             "animations": {
                 "idle":"animation.wasted_walker.idle"
             },
@@ -14,6 +13,7 @@
                     "idle"
                 ]
             },
+            "render_controllers": ["controller.render.default"],
             "spawn_egg": {
                 "base_color": "#a79c5e",
                 "overlay_color": "#518c43"

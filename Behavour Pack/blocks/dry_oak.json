@@ -11,7 +11,7 @@
 			},
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "dry_grass_side",
+                    "texture": "dry_oak_side",
                     "render_method": "opaque"
                 },
                 "ends": {

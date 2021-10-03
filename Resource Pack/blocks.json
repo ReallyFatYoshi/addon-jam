@@ -7,7 +7,8 @@
         "sound": "grass"
     },
     "knight:dry_oak_leaves": {
-        "sound":"leave"
+        "textures": "dry_oak_leaves",
+        "sound":"leaves"
     },
     "knight:dry_dirt": {
         "textures":"dry_dirt",
