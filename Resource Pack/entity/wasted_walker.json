@@ -1,0 +1,23 @@
+{
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "knight:wasted_walker",
+            "materials": {"default":"zombie"},
+            "geometry": {"default":"wasted_walker.geometry"},
+            "textures": {"default":"extures/entity/wasted_walker"},
+            "render_controllers": ["controller.render.default"],
+            "animations": {
+                "idle":"animation.wasted_walker.idle"
+            },
+            "script": {
+                "animate":[
+                    "idle"
+                ]
+            },
+            "spawn_egg": {
+                "base_color": "#a79c5e",
+                "overlay_color": "#518c43"
+            }
+        }
+    }
+}
