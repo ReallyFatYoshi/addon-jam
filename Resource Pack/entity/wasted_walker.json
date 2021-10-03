@@ -1,5 +1,6 @@
 {
     "minecraft:client_entity": {
+        "format_version": "1.10.0",
         "description": {
             "identifier": "knight:wasted_walker",
             "materials": {"default":"zombie"},

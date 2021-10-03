@@ -19,9 +19,7 @@
                     "render_method": "opaque"
                 },
                 "up": "ends",
-                "down": "ends",
-                "face_dimming": true,
-                "ambient_occlusion": true
+                "down": "ends"
             },
             "minecraft:map_color":"#AB987B",
             "minecraft:destroy_time": 4.5,
