@@ -1,7 +1,8 @@
 ##Blocks
-tile.knight:dry_dirt=Dry Dirt
-tile.knight:dry_grass=Dry Grass
-tile.knight:dry_oak_leaves=Dry Oak Leaves
-tile.knight:waisted_stone=Waisted Stone
-tile.knight:dry_oak=Dry Oak
-tile.knight:waisted_stone_brick=Waisted Stone bricks
+tile.knight:dry_dirt.name=Dry Dirt
+tile.knight:dry_grass.name=Dry Grass
+tile.knight:dry_oak_leaves.name=Dry Oak Leaves
+tile.knight:dry_oak_planks.name=Dry Oak Planks
+tile.knight:waisted_stone.name=Waisted Stone
+tile.knight:dry_oak.name=Dry Oak
+tile.knight:waisted_stone_brick.name=Waisted Stone bricks

@@ -1,15 +1,15 @@
 {
+    "format_version": "1.10.0",
     "minecraft:client_entity": {
-        "format_version": "1.10.0",
         "description": {
             "identifier": "knight:wasted_walker",
             "materials": {"default":"zombie"},
-            "geometry": {"default":"wasted_walker.geometry"},
+            "geometry": {"default":"geometry.wasted_walker"},
             "textures": {"default":"textures/entity/wasted_walker"},
             "animations": {
                 "idle":"animation.wasted_walker.idle"
             },
-            "script": {
+            "scripts": {
                 "animate":[
                     "idle"
                 ]

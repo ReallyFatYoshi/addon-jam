@@ -9,11 +9,50 @@
         },
         "components": {
             "minecraft:health": {
-                "min":10,
-                "max":10
-            }
+                "min":20,
+                "max":20
+            },
+	    "minecraft:attack": {
+	      "damage": 1.5
+	    },
+	    "minecraft:fire_immune":false,
+	    "minecraft:burns_in_daylight":false,
+	    "minecraft:jump.static": {},
+	    "minecraft:movement.basic": {},
+            "minecraft:can_climb": {},
+      	    "minecraft:movement": {
+        	"value": 0.25
+      	    },
+      	    "minecraft:behavior.hurt_by_target": {
+             "priority": 1
+            },
+            "minecraft:behavior.mount_pathing": {
+             "priority": 1,
+             "track_target": true
+      	    },
+	    "minecraft:behavior.melee_attack": {
+              "priority": 2
+            },
+	    "minecraft:behavior.look_at_player": {
+	      "priority": 3
+            },
+	    "minecraft:behavior.break_door": {
+	      "priority": 4
+	    },
+	    "minecraft:behavior.door_interact": {
+              "priority": 5
+            },
+	    "minecraft:behavior.random_stroll": {
+              "priority": 6
+            },
+	   "minecraft:behavior.move_towards_restriction": {
+              "priority": 7
+           },
+      	   "minecraft:behavior.random_look_around": {
+              "priority": 8
+            },
+	    "minecraft:physics": {}
         },
-        "events": {
-        }
+        "events": {}
     }
 }
