@@ -31,50 +31,6 @@ https://github.com/othneildrew/Best-README-Template
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<!--<br>
-<br>
-<p style="color:orange;">Template Code For Items: </p>
-<i><strong>Note:</strong> namespace for the identifiers is "Knight" will be replaced later when we come up with an name for the Add-on.</i> 
-
-```json
-    {
-    "format_version": "1.16.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "knight:foo" //Name you want for the example I used foo.
-        },
-        "components": {
-            //What ever components you want.
-        }
-    }
-}
-```
-
-<br>
-<br>
-<p style="color:orange;">Template Code For Blocks:</p>
-
-```json
-  {
-    "format_version": "1.17.20",
-    "minecraft:block": {
-        "description": {
-            "identifier": "knight:foo" //Name you want for the example I used foo.
-        },
-        "components": {
-            "minecraft:creative_category": {
-				"category": "construction", //Block category
-				"group": "itemGroup.name.grass" //Block group category list: https://wiki.bedrock.dev/items/creative-categories.html#list-of-creative-categories
-			},
-            "minecraft:map_color":"#000000" //Color the block should display on a map.
-            //What ever components you want.
-        }
-    }
-}
-```
-
-<br>
-<br>-->
 
 [contributors-shield]: https://img.shields.io/github/contributors/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
 [contributors-url]: https://github.com/ReallyFatYoshi/addon-jam/graphs/contributors
