@@ -9,7 +9,7 @@ https://github.com/othneildrew/Best-README-Template
 <a href="https://github.com/ReallyFatYoshi/addon-jam">
     <img src="https://github.com/ReallyFatYoshi/addon-jam/blob/main/Behavour%20Pack/pack_icon.png?raw=true" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center"><u>Addon Jam</u></h3>
+  <h3 align="center"><u>Wasteland Add-on</u></h3>
 
   <p align="center" style="font-size:16px;">
      This <strong>Minecraft Bedrock Edition Addon</strong><img src="https://camo.githubusercontent.com/c47c99974fc3499547d5a9462b681b7c26890cdad07c603cc9ff6f758d41a364/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f656d6f6a69732f3830393233323037313635383730303836312e6769663f73697a653d3434" height=
@@ -31,7 +31,7 @@ https://github.com/othneildrew/Best-README-Template
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<br>
+<!--<br>
 <br>
 <p style="color:orange;">Template Code For Items: </p>
 <i><strong>Note:</strong> namespace for the identifiers is "Knight" will be replaced later when we come up with an name for the Add-on.</i> 
@@ -74,7 +74,7 @@ https://github.com/othneildrew/Best-README-Template
 ```
 
 <br>
-<br>
+<br>-->
 
 [contributors-shield]: https://img.shields.io/github/contributors/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
 [contributors-url]: https://github.com/ReallyFatYoshi/addon-jam/graphs/contributors
