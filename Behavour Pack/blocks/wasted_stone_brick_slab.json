@@ -1,0 +1,14 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier":"knight:wasted_stone_brick_slab"
+        },
+        "components": {
+			      "minecraft:geometry":"geometry.block_slab",
+            "minecraft:map_color":"#9C7E65",
+            "minecraft:destroy_time":2.5,
+            "minecraft:breakonpush":false
+        }
+    }
+}

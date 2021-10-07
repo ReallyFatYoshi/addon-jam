@@ -1,0 +1,35 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "wasteland_low"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.001,
+				"snow_accumulation": [0.0, 0.0],
+				"temperature": 1.0
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "lowlands"
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 4,
+				"sea_floor_material": "minecraft:wasted_stone",
+				"foundation_material": "knight:wasted_stone",
+				"mid_material": "knight:dry_dirt",
+				"top_material": "knight:dry_grass",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					["medium", 45],
+					["warm", 50],
+					["cold", 0]
+				]
+			},
+			"wasteland": {},
+			"wasteland_grass": {}
+		}
+	}
+}

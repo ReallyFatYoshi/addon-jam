@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "knight:wasted_brick"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "knight:wasted_stone"
+      }
+    },
+    "result": {
+      "item": "knight:wasted_stone_brick",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "format_version": "1.17.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "knight:wasted_sandstone_brick"
+        },
+        "components": {
+            "minecraft:creative_category": {
+				      "category": "construction",
+				      "group": "itemGroup.name.grass"
+			      },
+            "minecraft:map_color":"#ccad7d",
+            "minecraft:destroy_time": 0.4,
+            "minecraft:breakonpush": false
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "knight:wasteland_coal"
+		},
+		"count": 8, 
+		"replace_rules": [
+			{
+				"places_block": "minecraft:coal_ore",
+				"may_replace": ["knight:wasted_stone"]
+			},
+			{
+				"places_block": "minecraft:soul_sand",
+				"may_replace": ["minecraft:coal_ore"]
+			}
+		]
+	}
+}

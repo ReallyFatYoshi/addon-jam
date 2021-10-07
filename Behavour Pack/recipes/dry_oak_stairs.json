@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "knight:dry_oak_stairs"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#",
+      "##",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "knight:dry_oak_plank"
+      }
+    },
+    "result": {
+      "item": "knight:dry_oak_stairs"
+    }
+  }
+}

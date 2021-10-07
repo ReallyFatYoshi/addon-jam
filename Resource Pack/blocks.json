@@ -1,0 +1,60 @@
+{
+    "format_version": "1.16.0",
+    "knight:dry_oak": {
+      "textures": {
+	      "side": "dry_oak_side",
+            "up": "dry_oak",
+            "down": "dry_oak"
+  	  },
+          "sound":"wood"
+      },
+      "knight:dry_grass": {
+          "textures": {
+  	          "side": "dry_grass_side",
+              "up": "dry_grass_top",
+              "down": "dry_grass_bottom"
+  	  },
+          "sound":"grass"
+      },
+      "knight:dry_oak_leaves": {
+          "brightness_gamma" : 0.80,
+          "textures":"dry_oak_leaves",
+          "sound":"grass"
+      },
+      "knight:wasted_sand": {
+          "textures":"wasted_sand",
+          "sound":"sand"
+      },
+      "knight:wasted_sandstone": {
+          "textures":"wasted_sandstone",
+          "sound":"stone"
+      },
+     "knight:wasted_sandstone_brick": {
+          "textures":"wasted_sandstone_brick",
+          "sound":"stone"
+      },
+      "knight:dry_dirt": {
+          "textures":"dry_dirt",
+          "sound":"gravel"
+      },
+      "knight:wasted_stone": {
+          "textures":"dry_stone",
+          "sound":"stone"
+      },
+      "knight:dry_oak_plank": {
+          "textures":"dry_oak_plank",
+          "sound":"wood"
+      },
+      "knight:dry_oak_stairs": {
+          "textures":"dry_oak_plank",
+          "sound":"wood"
+      },
+      "knight:wasted_stone_brick": {
+          "textures":"dry_stone_brick",
+          "sound":"stone"
+      },
+      "knight:wasted_stone_brick_slab": {
+          "textures":"dry_stone_brick",
+          "sound":"stone"
+      }
+}

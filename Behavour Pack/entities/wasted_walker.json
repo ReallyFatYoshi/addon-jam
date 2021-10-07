@@ -1,0 +1,88 @@
+{
+    "format_version":"1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier":"knight:wasted_walker",
+            "is_experimental":false,
+            "is_spawnable":true,
+            "is_summonable":true
+        },
+        "components": {
+            "minecraft:type_family": {
+              "family": [ "wasted_mob", "monster", "mob", "zombie" ]
+            },
+            "minecraft:health": {
+                "min":20,
+                "max":20
+            },
+	    "minecraft:attack": {
+	      "damage": 1.5
+	    },
+	    "minecraft:fire_immune":false,
+	    "minecraft:burns_in_daylight":false,
+	    "minecraft:jump.static": {},
+	    "minecraft:movement.basic": {},
+            "minecraft:can_climb": {},
+      	    "minecraft:movement": {
+        	    "value": 0.25
+      	    },
+      	     "minecraft:behavior.nearest_attackable_target": {
+              "priority": 0,
+              "must_see": true,
+              "reselect_targets": true,
+              "within_radius": 25.0,
+              "must_see_forget_duration": 17.0,
+              "entity_types": [
+              {
+               "filters": {
+                  "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "villager"
+                  }
+                ]
+              },
+              "max_dist": 32
+              }
+            ]
+          },
+      	    "minecraft:behavior.hurt_by_target": {
+               "priority": 1
+            },
+            "minecraft:behavior.mount_pathing": {
+               "priority": 1,
+               "track_target":true
+      	    },
+	          "minecraft:behavior.melee_attack": {
+                "priority": 2,
+                "track_target":true
+            },
+	          "minecraft:behavior.look_at_player": {
+	            "priority": 3
+            },
+	         "minecraft:behavior.break_door": {
+	            "priority": 4
+	         },
+	         "minecraft:behavior.door_interact": {
+              "priority": 5
+            },
+	        "minecraft:behavior.random_stroll": {
+              "priority": 6
+          },
+	        "minecraft:behavior.move_towards_restriction": {
+              "priority": 7
+          },
+      	   "minecraft:behavior.random_look_around": {
+              "priority": 8
+          },
+	        "minecraft:physics": {}
+        },
+        "events": {}
+    }
+}

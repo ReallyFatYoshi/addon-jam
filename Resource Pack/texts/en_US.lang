@@ -1,0 +1,20 @@
+##Items
+##Spawn Eggs
+item.spawn_egg.entity.knight:wasted_walker.name=Wasted Walker Spawn Egg
+
+##Blocks
+tile.knight:dry_dirt.name=Dry Dirt
+tile.knight:dry_grass.name=Dry Grass
+tile.knight:dry_oak_leaves.name=Dry Oak Leaves
+tile.knight:dry_oak_plank.name=Dry Oak Planks
+tile.knight:dry_oak.name=Dry Oak
+tile.knight:dry_oak_stairs.name=Dry Oak Stairs
+tile.knight:dry_oak_slab.name=Dry Oak Slab
+
+tile.knight:wasted_stone.name=Wasted Stone
+tile.knight:wasted_stone_brick.name=Wasted Stone Bricks
+tile.knight:wasted_stone_brick_slab.name=Wasted Stone Brick Slabs
+
+tile.knight:wasted_sandstone_brick.name=Wasted Sandstone Bricks
+tile.knight:wasted_sand.name=Wasted Sand
+tile.knight:wasted_sandstone.name=Wasted Sandstone

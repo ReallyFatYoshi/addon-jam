@@ -1,0 +1,39 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "knight:underground_wasteland_coal",
+			"places_feature": "knight:wasteland_coal"
+		},
+		"conditions": {
+			"placement_pass": "underground_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "wasteland"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 4, 
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [0, 16]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [0, 62]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [0, 16]
+			}
+		}
+	}
+}

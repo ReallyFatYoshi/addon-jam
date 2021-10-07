@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "knight:wasteland_dry_grass"
+		},
+
+		"places_block": "knight:dry_grass",
+		"enforce_placement_rules": true,
+		"enforce_survivability_rules": true,
+		"may_replace": ["knight:wasted_sand"],
+		"may_attach_to": {
+			"bottom": "knight:wasted_sandstone",
+			"sides": ["knight:wasted_sandstone"]
+		}
+	}
+}

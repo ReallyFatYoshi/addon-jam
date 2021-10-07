@@ -1,0 +1,28 @@
+{
+    "format_version":"1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier":"knight:give_book",
+            "is_experimental":false,
+            "is_spawnable":false,
+            "is_summonable":true
+        },
+        "component_groups": {
+            "kill": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:health": {
+                "min":10,
+                "max":10
+            },
+            "minecraft:loot": { "table":"loot_tables/give_book.json" }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "add": ["kill"]
+            }
+        }
+    }
+}

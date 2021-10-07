@@ -1,0 +1,39 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "knight:wasteland_random_dry_grass_top",
+			"places_feature": "knight:wasteland_random_dry_grass"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "==",
+							"value": "wasteland"
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+			"iterations": 8, 
+			"coordinate_eval_order": "zyx",
+			"x": {
+				"distribution": "uniform",
+				"extent": [0, 16]
+			},
+			"y": {
+				"distribution": "uniform",
+				"extent": [0, 62]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [0, 16]
+			}
+		}
+	}
+}

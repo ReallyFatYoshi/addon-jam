@@ -1,0 +1,17 @@
+{
+    "format_version": "1.17.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "knight:wasted_stone_brick"
+        },
+        "components": {
+            "minecraft:creative_category": {
+				      "category": "construction",
+				      "group": "itemGroup.name.stoneBrick"
+			      },
+            "minecraft:map_color":"#9C7E65",
+            "minecraft:destroy_time": 4.5,
+            "minecraft:breakonpush": false
+        }
+    }
+}

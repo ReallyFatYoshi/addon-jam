@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier":"knight:dry_oak_stairs"
+        },
+        "components": {
+			      //"minecraft:geometry":"geometry.block_stair",
+            "minecraft:map_color":"#AB987B",
+            "minecraft:destroy_time":2.5,
+            "minecraft:flammable": {
+                "flame_odds": 75,
+                "burn_odds": 15
+            },
+            "minecraft:breakonpush":false
+        }
+    }
+}

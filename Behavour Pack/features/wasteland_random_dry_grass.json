@@ -1,0 +1,27 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "knight:wasteland_random_dry_grass"
+		},
+
+		"places_feature": "knight:wasteland_dry_grass",
+
+		"scatter_chance": {
+			"numerator": 2,
+			"denominator": 3
+		},
+		"iterations": "v.grass_patch.size = math.random_integer(6, 14); return math.random_integer(math.pow(v.grass_patch.size, 2) / v.grass_patch.size / 3, math.pow(v.grass_patch.size, 2) / (v.grass_patch.size/3));",
+
+		"project_input_to_floor": true,
+		"x": {
+			"distribution": "gaussian",
+			"extent": [0, "v.grass_patch.size"]
+		},
+		"z": {
+			"distribution": "gaussian",
+			"extent": [0, "v.grass_patch.size"]
+		},
+		"y": 0
+	}
+}

@@ -1,0 +1,47 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "dry_grass_top": {
+            "textures": "textures/blocks/dry_grass_top"
+        },
+        "dry_grass_bottom": {
+            "textures": "textures/blocks/dry_grass_bottom"
+        },
+        "dry_grass_side": {
+            "textures": "textures/blocks/dry_grass_side"
+        },
+        "dry_oak": {
+          "textures": "textures/blocks/dry_oak_wood_top_bottom"
+        },
+        "dry_oak_side": {
+            "textures": "textures/blocks/dry_oak_wood_side"
+        },
+        "dry_oak_leaves": {
+            "textures": "textures/blocks/dry_oak_leaves"
+        },
+        "dry_stone": {
+            "textures": "textures/blocks/waisted_stone"
+        },
+        "dry_stone_brick": {
+            "textures": "textures/blocks/waisted_stone_brick"
+        },
+        "dry_oak_plank": {
+            "textures": "textures/blocks/dry_oak_plank"
+        },
+        "dry_dirt": {
+            "textures": "textures/blocks/dry_dirt"
+        },
+        "wasted_sandstone_brick": {
+            "textures": "textures/blocks/wasted_sandstone_brick"
+        },
+        "wasted_sandstone": {
+            "textures": "textures/blocks/wasted_sandstone"
+        },
+        "wasted_sand": {
+            "textures": "textures/blocks/wasted_sand"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}
