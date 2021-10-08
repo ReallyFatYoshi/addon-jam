@@ -32,6 +32,31 @@ https://github.com/othneildrew/Best-README-Template
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+
+<br>
+
+<h1>QnA</h1>
+
+**What's new**? :
+- 1 new biome with trees.
+![screenshot-biome1]
+
+
+- 10 new blocks with recipes.
+![screenshot-blocks1]
+
+
+**What kind of resources can you find at the new biome**? :
+- Wasted Stone, Dry Grass, Dry Dirt and Dry Oak Logs.
+
+*We know it isn't alot, but we will update the Add-on after the Addon Jam, we had loads of features and idea's in mind, but not enough time to implement them before the Addon Jam ended.*
+
+<!-- Screenshots -->
+[screenshot-biome1]:https://media.discordapp.net/attachments/894839835477565460/895792433479180288/unknown.jpeg
+[screenshot-blocks1]:https://media.discordapp.net/attachments/891279565396275221/896117400750162000/Screenshot_20211007-230950_Minecraft.jpg
+
+
+<!--Icons-->
 [contributors-shield]: https://img.shields.io/github/contributors/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
 [contributors-url]: https://github.com/ReallyFatYoshi/addon-jam/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ReallyFatYoshi/addon-jam.svg?style=for-the-badge
