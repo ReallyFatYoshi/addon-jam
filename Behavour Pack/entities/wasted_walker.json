@@ -15,16 +15,18 @@
                 "min":20,
                 "max":20
             },
-	    "minecraft:attack": {
-	      "damage": 1.5
-	    },
-	    "minecraft:fire_immune":false,
-	    "minecraft:burns_in_daylight":false,
-	    "minecraft:jump.static": {},
-	    "minecraft:movement.basic": {},
+      	    "minecraft:attack": {
+      	      "damage": 1.5
+      	    },
+      	    "minecraft:fire_immune":false,
+      	    "minecraft:burns_in_daylight":false,
+      	    "minecraft:jump.static": {},
+      	    "minecraft:movement.basic": {},
+      	    "minecraft:navigation.generic": { "can_path_over_water": true, "avoid_water": true, "can_pass_doors": true, "can_walk": true, "avoid_damage_blocks": true, "can_open_doors": true 
+      	    },
             "minecraft:can_climb": {},
       	    "minecraft:movement": {
-        	    "value": 0.25
+        	    "value": 0.30
       	    },
       	     "minecraft:behavior.nearest_attackable_target": {
               "priority": 0,
@@ -52,36 +54,47 @@
               }
             ]
           },
-      	    "minecraft:behavior.hurt_by_target": {
-               "priority": 1
-            },
-            "minecraft:behavior.mount_pathing": {
-               "priority": 1,
-               "track_target":true
-      	    },
-	          "minecraft:behavior.melee_attack": {
-                "priority": 2,
-                "track_target":true
-            },
-	          "minecraft:behavior.look_at_player": {
-	            "priority": 3
-            },
-	         "minecraft:behavior.break_door": {
-	            "priority": 4
-	         },
-	         "minecraft:behavior.door_interact": {
-              "priority": 5
-            },
-	        "minecraft:behavior.random_stroll": {
-              "priority": 6
+          "minecraft:behavior.random_stroll": {
+              "priority": 3
           },
-	        "minecraft:behavior.move_towards_restriction": {
-              "priority": 7
+          "minecraft:behavior.ranged_attack": {
+            "priority": 4,
+            "attack_radius": 0.3
           },
-      	   "minecraft:behavior.random_look_around": {
-              "priority": 8
+          "minecraft:behavior.random_look_around": {
+            "priority": 5
           },
-	        "minecraft:physics": {}
+          "minecraft:follow_range": {
+            "value": 32,
+            "max": 32
+          },
+          "minecraft:area_attack": {
+            "entity_filter": {
+               "all_of": [
+                {
+                  "test":"is_target",
+                  "subject":"other"
+                },
+                {
+                  "test": "is_family",
+                  "operator":"not",
+                  "subject": "other",
+                  "value": "zombie"
+                },
+                {                  
+                  "test": "is_family",
+                  "operator":"not",
+                  "subject": "other",
+                  "value": "monster"
+                }
+              ]         
+            }
+          },
+	        "minecraft:physics": {
+	          "has_gravity":true,
+	          "has_collision":true
+	        },
+	        "minecraft:pushable": {}
         },
         "events": {}
     }
