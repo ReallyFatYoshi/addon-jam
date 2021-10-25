@@ -22,7 +22,7 @@
                     "render_method": "alpha_test"
                 }
             },
-            "minecraft:loot": "loot_tables/blocks/dry_oak_leavea.json",
+            "minecraft:loot": "loot_tables/blocks/dry_oak_leaves.json",
 	          "minecraft:breakonpush": true
         }
     }
